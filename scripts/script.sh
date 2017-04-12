@@ -228,7 +228,7 @@ elif [ "${fun}" == "invokeQuery" ]; then
 	do
 		for (( chain=0; $chain<$CHAINCODES; chain++))
 		do
-                	AVAL=222222222000
+                	AVAL=1000
 			for (( peer_number=0;peer_number<4;peer_number++))
 			do
 				setGlobals "$peer_number"
