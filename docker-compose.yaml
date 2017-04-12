@@ -148,7 +148,7 @@ services:
     working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
     #command: /bin/bash -c 'sleep 100000'
     #command: /bin/bash -c 'apt-get update && apt-get install python; sleep 10000'
-    command: /bin/bash -c 'apt-get update && apt-get install -y python python-xmlrunner && ./scripts/${script} ${CHANNEL_NAME} ${CHANNELS_NUM} ${CHAINCODES_NUM} ${ENDORSERS_NUM}; sleep 1000'
+    command: /bin/bash -c 'apt-get update && apt-get install -y python python-xmlrunner && ./scripts/${script} ${CHANNEL_NAME} ${CHANNELS_NUM} ${CHAINCODES_NUM} ${ENDORSERS_NUM}; sleep 100'
     #command: /bin/bash -c './scripts/script_example05.sh ${CHANNEL_NAME} ${CHANNELS_NUM} ${CHAINCODES_NUM} ${ENDORSERS_NUM}; '
     #command: /bin/bash -c './scripts/script_example05_nc.sh ${CHANNEL_NAME} ${CHANNELS_NUM} ${CHAINCODES_NUM} ${ENDORSERS_NUM} ${CH02_INST}; '
     #command: /bin/bash -c './scripts/ccAPIDriver.sh ${CHANNEL_NAME} ${CHANNELS_NUM} ${CHAINCODES_NUM} ${ENDORSERS_NUM} ${CHAINCODE_NAME}; '
