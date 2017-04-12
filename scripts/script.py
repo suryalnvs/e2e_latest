@@ -13,7 +13,7 @@ class TestExample02(unittest.TestCase):
         #print cmd
         p = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE)
         output = p.communicate()[0]
-        #print output
+        print output
         self.assertEqual(p.returncode, 0)
 
     def test_aCreateChannel(self):
