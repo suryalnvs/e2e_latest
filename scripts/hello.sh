@@ -1,0 +1,10 @@
+echo "hello world"
+##### GLOBALS ######
+CHANNEL_NAME="$1"
+CHANNELS="$2"
+CHAINCODES="$3"
+ENDORSERS="$4"
+echo $CHANNEL_NAME
+echo $CHANNELS
+echo $CHAINCODES
+echo $ENDORSERS
